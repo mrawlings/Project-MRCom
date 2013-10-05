@@ -11,3 +11,22 @@
 .navbar-inner {
   text-align:center;
 }
+
+/* Make HR more visible in gray background */
+hr {
+	margin: 20px 0;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #ffffff;
+}
+
+/* Change background color */
+body {
+	background-color: #EEE;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* Class to center contents */
+.center {
+	text-align: center;
+}
