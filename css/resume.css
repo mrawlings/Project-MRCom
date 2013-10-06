@@ -1,0 +1,84 @@
+#content p, #content ul{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 20px;
+
+}
+#content h3{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#name{
+	text-align: center;
+}
+
+#name h1{
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+#name p{
+	display: inline-block;
+}
+#address{
+	display: inline;
+}
+
+.level2{
+	margin-left: 40px;
+}
+
+.address, .address h3, .address p, .res-section h3, .res-section p, .res-section table, .res-section ul{
+	display: inline-block;
+}
+
+#right-address{
+	text-align: right;
+}
+
+.date {
+	text-align:right;
+	display: inline;
+	float: right;
+}
+
+
+.res-section{
+	margin-left: 100px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.res-section h3{
+	vertical-align: top;
+	width: 133px;
+}
+
+.res-section td{
+	padding-right: 80px;
+}
+
+.res-section table, .res-section ul{
+}
+
+.res-section li{
+	margin-bottom: 10px;
+}
+
+.res-section ul{
+	padding: 0px;
+	list-style-type: none;
+}
+
+#main-area a, #main-area a:visited {
+	font-size: 19px;
+	text-decoration: none;
+}
+
+@media (max-width: 475px) {
+	#right-address{
+		float: none;
+		text-align: left;
+	}
+}
