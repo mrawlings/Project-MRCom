@@ -3,10 +3,10 @@ Project-MRCom
 
 A personal website for portfolio and educational purposes (learning web development) using [Bootstrap](http://getbootstrap.com/) as the framework.
 
-Usage
+Base-Template Usage
 =====
 
-Will be coming soon when base template is available. In meantime, please review the license below.
+Download [here](https://github.com/mrawlings/Project-MRCom/archive/Release-v0.1.zip) and unzip it. Now you can edit it right away.
 
 License
 =======
