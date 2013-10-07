@@ -30,3 +30,7 @@ body {
 .center {
   text-align: center;
 }
+
+.offset1 {
+  margin-left: 100px;
+}
