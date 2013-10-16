@@ -15,15 +15,16 @@
 /* Make HR more visible in gray background */
 hr {
   margin: 20px 0;
-  border-top: 1px solid #CCC;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #555;
 }
 
 /* Change background color */
 body {
+  font-family: 'Cantarell', sans-serif;
   background-color: #EEE;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 20px;    
 }
 
 /* Class to center contents */
@@ -33,4 +34,61 @@ body {
 
 .offset1 {
   margin-left: 100px;
+}
+
+.navbar-inverse {
+    background-color: #313131;
+}
+
+body {
+    background-color: #212121;
+    color: #eee;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron {
+    background-color: #212121;
+    color: #eee;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ddd;
+  background-color: #212121;
+}
+
+.btn-primary {
+    color: #eee;
+    background-color: #313131;
+    border-color: #555;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #ebebeb;
+    color: #333333;
+}
+
+.btn-default {
+    color: #eee;
+    background-color: #313131;
+    border-color: #555;
+}
+
+a {
+    color: #aaa;
+    font-family: 'Cantarell', sans-serif;
+}
+
+a:hover,
+a:focus {
+    color: #555;
+}
+
+html {
+    font-family: 'Cantarell', sans-serif;
 }
